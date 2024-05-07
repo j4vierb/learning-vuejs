@@ -15,7 +15,7 @@ app.component('parent-component', {
   template:
   `
     <h1>{{title}}</h1>
-    <child-component text='This is a child component' @mose-over-event='changeMouseOver'></child-component>
+    <child-component text='This is a child component' @mouse-over-event='changeMouseOver'></child-component>
     <p v-show='mouseIsOver'>Mouse over!!!</p>
   `,
   data() {
